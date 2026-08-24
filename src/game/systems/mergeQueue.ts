@@ -1,4 +1,4 @@
-﻿export type PendingMerge = {
+export type PendingMerge = {
   leftId: string;
   rightId: string;
   resultLevel: number;

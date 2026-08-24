@@ -1,4 +1,4 @@
-﻿export const MATTER_ENABLE_SLEEP = false;
+export const MATTER_ENABLE_SLEEP = false;
 
 export type MergeSpawnPolicy = {
   useStaticSettle: boolean;

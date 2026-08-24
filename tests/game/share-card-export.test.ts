@@ -62,7 +62,7 @@ describe("share card export", () => {
 
     expect(renderSpy).toHaveBeenCalledTimes(1);
     expect(renderSpy).toHaveBeenCalledWith(renderInput);
-    expect(renderSpy.mock.calls[0][0].assets.previewMode).toBe("frames");
+    expect(renderSpy.mock.calls[0][0].assets.previewMode).toBe("gif");
     expect(canShare).toHaveBeenCalledTimes(1);
     expect(share).toHaveBeenCalledTimes(1);
     expect(download).not.toHaveBeenCalled();

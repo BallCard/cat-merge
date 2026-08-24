@@ -1,4 +1,4 @@
-﻿import type { HudBridge, HudState } from "./bridge";
+import type { HudBridge, HudState } from "./bridge";
 import type { ToolKind } from "../systems/toolState";
 import { buildShareCardModel, type ShareCardInput, type ShareCardModel } from "../share/shareCardPolicy";
 import { resolveShareCardAssets, type ShareCardAssets } from "../share/shareCardAssets";

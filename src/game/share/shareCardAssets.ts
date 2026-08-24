@@ -7,7 +7,7 @@ type AssetHeroMap = Record<string, string>;
 type ShareCardGifMap = Record<string, string>;
 
 export type ShareCardAssetCatalog = {
-  previewGifSrcByKey: ShareCardGifMap;
+  previewGifSrcByKey?: ShareCardGifMap;
   previewFrameSrcsByKey: AssetSourceMap;
   staticHeroSrcByKey: AssetHeroMap;
   placeholderSrc: string;
@@ -240,7 +240,7 @@ export function resolveShareCardAssets(
   catalog: ShareCardAssetCatalog = DEFAULT_CATALOG,
 ): ShareCardAssets {
   const assetKey = getAssetKey(peakLevel);
-  const previewGifSrc = catalog.previewGifSrcByKey[assetKey];
+  const previewGifSrc = catalog.previewGifSrcByKey?.[assetKey];
   const previewFrameSrcs = catalog.previewFrameSrcsByKey[assetKey] ?? [];
   const staticHeroSrc = catalog.staticHeroSrcByKey[assetKey];
 

@@ -1,4 +1,4 @@
-﻿export const BOMB_DELETE_RADIUS = 60;
+export const BOMB_DELETE_RADIUS = 60;
 export const BOMB_KNOCKBACK_RADIUS = 164;
 
 export type BombImpact = "delete" | "knockback" | "none";

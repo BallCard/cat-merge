@@ -1,4 +1,4 @@
-﻿export type ToolKind = "refresh" | "shake" | "hammer" | "bomb";
+export type ToolKind = "refresh" | "shake" | "hammer" | "bomb";
 export type TargetToolKind = "hammer" | "bomb";
 
 export type ToolCounts = Record<ToolKind, number>;

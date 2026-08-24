@@ -1,4 +1,4 @@
-﻿import Phaser from "phaser";
+import Phaser from "phaser";
 
 import { ALL_CAT_ASSET_KEYS } from "../config/cats";
 

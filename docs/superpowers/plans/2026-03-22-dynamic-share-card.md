@@ -36,8 +36,8 @@
 ### Task 1: Lock score-band policy with failing tests
 
 **Files:**
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-policy.test.ts`
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPolicy.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-policy.test.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPolicy.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -106,8 +106,8 @@ git commit -m "feat: add share card policy"
 ### Task 2: Lock export behavior with failing tests
 
 **Files:**
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-export.test.ts`
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-export.test.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -172,10 +172,10 @@ git commit -m "feat: add share card export flow"
 ### Task 3: Add strict modal share preview from the result layer
 
 **Files:**
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/hud/bridge.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/hud/domHud.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/hud/bridge.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/hud/domHud.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -231,9 +231,9 @@ git commit -m "feat: add share preview modal"
 ### Task 4: Render the 9:16 dynamic cat card from frozen result data
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/styles.css`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/styles.css`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -297,10 +297,10 @@ git commit -m "feat: style dynamic share card preview"
 ### Task 5: Wire share action to export and success feedback
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/smoke/app-start.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/smoke/app-start.test.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -347,11 +347,11 @@ git commit -m "feat: wire share card export"
 ### Task 6: Full verification and manual-ready checkpoint
 
 **Files:**
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPolicy.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/hud/domHud.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/styles.css`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPolicy.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/hud/domHud.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/styles.css`
 
 - [ ] **Step 1: Run targeted regression tests**
 

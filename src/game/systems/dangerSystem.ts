@@ -1,4 +1,4 @@
-﻿export type DangerState = {
+export type DangerState = {
   accumulatedMs: number;
   immunityMs: number;
   isGameOver: boolean;

@@ -1,4 +1,4 @@
-﻿import type { ToolKind } from "../systems/toolState";
+import type { ToolKind } from "../systems/toolState";
 
 export type HudResultState = {
   score: number;

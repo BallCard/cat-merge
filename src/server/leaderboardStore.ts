@@ -1,4 +1,4 @@
-﻿import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 export type StoredPlayer = {

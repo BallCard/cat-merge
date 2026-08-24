@@ -22,7 +22,9 @@ export function createBgmManager(options: CreateBgmManagerOptions = {}): BgmMana
   const documentRef = options.documentRef ?? (typeof document !== "undefined" ? document : null);
   const audio = typeof Audio === "undefined" ? null : new Audio();
   const userAgent = documentRef?.defaultView?.navigator?.userAgent ?? "";
-  const isJsdom = /jsdom/i.test(userAgent);
+  const mediaElementCtor = documentRef?.defaultView?.HTMLMediaElement;
+  const isNativeJsdomAudio =
+    /jsdom/i.test(userAgent) && Boolean(audio && mediaElementCtor && audio instanceof mediaElementCtor);
   let enabled = options.enabled ?? true;
   let unlocked = false;
   let currentTrackIndex = -1;
@@ -47,7 +49,7 @@ export function createBgmManager(options: CreateBgmManagerOptions = {}): BgmMana
   };
 
   const safePause = (): void => {
-    if (!audio || isJsdom) {
+    if (!audio || isNativeJsdomAudio) {
       return;
     }
 
@@ -59,7 +61,7 @@ export function createBgmManager(options: CreateBgmManagerOptions = {}): BgmMana
   };
 
   const playCurrent = (): void => {
-    if (!audio || !enabled || !unlocked || currentTrackIndex < 0 || isJsdom) {
+    if (!audio || !enabled || !unlocked || currentTrackIndex < 0 || isNativeJsdomAudio) {
       return;
     }
 

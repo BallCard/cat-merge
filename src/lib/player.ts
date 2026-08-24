@@ -1,4 +1,4 @@
-﻿export const ANONYMOUS_ID_KEY = "zju-cat-merge:anonymous-id";
+export const ANONYMOUS_ID_KEY = "zju-cat-merge:anonymous-id";
 
 function randomId(): string {
   if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
@@ -13,7 +13,12 @@ function getStorage(): Storage | null {
     if (typeof window === "undefined" || !window.localStorage) {
       return null;
     }
-    return window.localStorage;
+    const storage = window.localStorage;
+    return typeof storage.getItem === "function" &&
+      typeof storage.setItem === "function" &&
+      typeof storage.removeItem === "function"
+      ? storage
+      : null;
   } catch {
     return null;
   }

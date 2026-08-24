@@ -1,4 +1,4 @@
-﻿import Phaser from "phaser";
+import Phaser from "phaser";
 
 import type { HudBridge } from "./hud/bridge";
 import { BootScene } from "./scenes/BootScene";

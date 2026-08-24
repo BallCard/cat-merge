@@ -1,4 +1,4 @@
-﻿export type ShareCardInput = {
+export type ShareCardInput = {
   score: number;
   peakLevel: number;
   isNewBest: boolean;

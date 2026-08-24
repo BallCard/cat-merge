@@ -38,8 +38,8 @@
 ### Task 1: Lock asset resolution and fallback order
 
 **Files:**
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-assets.test.ts`
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardAssets.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-assets.test.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardAssets.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -100,8 +100,8 @@ git commit -m "feat: add share card asset resolver"
 ### Task 2: Add the fixed-size canvas export renderer
 
 **Files:**
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExportRenderer.ts`
-- Create: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-export-renderer.test.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExportRenderer.ts`
+- Create: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-export-renderer.test.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -152,10 +152,10 @@ git commit -m "feat: add high-res share card renderer"
 ### Task 3: Upgrade the preview to real cat frames with static fallback
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/styles.css`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardAssets.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/styles.css`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardAssets.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -192,7 +192,7 @@ Expected: FAIL because the preview still uses placeholder text/shape markup.
 
 Update `shareCardPreview.ts` and `styles.css` so preview rendering:
 - uses the resolved preview frame list when available
-- falls back to the same cat¡¯s static image if frames are unavailable
+- falls back to the same catï¿½ï¿½s static image if frames are unavailable
 - falls back to placeholder only when real assets are unavailable
 - preserves the same band/pose/anchor logic as before
 
@@ -213,12 +213,12 @@ git commit -m "feat: add real cat preview frames"
 ### Task 4: Route export through the high-resolution renderer and retire preview-size export calls
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExportRenderer.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/hud/domHud.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-export.test.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-export-renderer.test.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExport.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExportRenderer.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/hud/domHud.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-export.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-export-renderer.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -269,11 +269,11 @@ git commit -m "feat: export high-res share cards"
 ### Task 5: Realign preview/export with policy and full regression
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPolicy.ts` if needed
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/share/shareCardExportRenderer.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/share-card-export-renderer.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPolicy.ts` if needed
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardPreview.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/share/shareCardExportRenderer.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/share-card-export-renderer.test.ts`
 
 - [ ] **Step 1: Write the final alignment assertions**
 

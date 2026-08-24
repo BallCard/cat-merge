@@ -71,7 +71,12 @@ function getStorage(): Storage | null {
     if (typeof window === "undefined" || !window.localStorage) {
       return null;
     }
-    return window.localStorage;
+    const storage = window.localStorage;
+    return typeof storage.getItem === "function" &&
+      typeof storage.setItem === "function" &&
+      typeof storage.removeItem === "function"
+      ? storage
+      : null;
   } catch {
     return null;
   }

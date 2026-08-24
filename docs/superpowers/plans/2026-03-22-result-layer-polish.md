@@ -30,8 +30,8 @@
 ### Task 1: Lock result overlay content and accessibility with failing tests
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
-- Test: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Test: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -109,9 +109,9 @@ git commit -m "test: lock result overlay content contract"
 ### Task 2: Refine poster layout and bottom action row
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/hud/domHud.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/styles.css`
-- Test: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/hud/domHud.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/styles.css`
+- Test: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
 
 - [ ] **Step 1: Write the failing test**
 
@@ -165,10 +165,10 @@ git commit -m "feat: polish result poster layout"
 ### Task 3: Verify frozen header score before changing scene logic
 
 **Files:**
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/scenes/GameScene.ts` only if the targeted test fails
-- Modify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/styles.css`
-- Test: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/smoke/app-start.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/scenes/GameScene.ts` only if the targeted test fails
+- Modify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/styles.css`
+- Test: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/smoke/app-start.test.ts`
 
 - [ ] **Step 1: Write the failing verification**
 
@@ -222,11 +222,11 @@ If `GameScene.ts` is unchanged because the contract already held, omit it from t
 ### Task 4: Full verification and manual-ready checkpoint
 
 **Files:**
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/hud/domHud.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/styles.css`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/src/game/scenes/GameScene.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
-- Verify: `d:/projects/zjucatmerge/.worktrees/result-layer/tests/game/result-state.test.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/hud/domHud.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/styles.css`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/src/game/scenes/GameScene.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/dom-hud.test.ts`
+- Verify: `d:/projects/zju-cat-merge/.worktrees/result-layer/tests/game/result-state.test.ts`
 
 - [ ] **Step 1: Run targeted regression tests**
 
